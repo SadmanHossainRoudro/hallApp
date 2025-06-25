@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Ads - Buy&Sell</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Buy&Sell</h2>
+                <ul class="nav_links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Browse</a></li>
+                    <li><a href="post-ad.html">Post Ad</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+        </div>
+    </nav>
+
+
+    <!-- Post Ad Section -->
+
+    <section class="post_ad_section">
+        <div class="container">
+            <h2 class="post_ad_title">Post New Ads</h2>
+            <form class="post_ad_form">
+                <label>Item Name:</label>
+                <input type="text" placeholder="Input item name" required />
+
+                <label>Description:</label>
+                <textarea placeholder="Input item description" rows="6" required></textarea>
+
+                <label>Price (in Taka):</label>
+                <input type="number" placeholder="Enter amount" required />
+
+                <label>Category:</label>
+                <select required>
+                    <option value="">
+                        <option>Books</option>
+                        <option>Electronics</option>
+                        <option>Furniture</option>
+                        <option>Project Related</option>
+                        <option>Other</option>
+                    </option>
+                </select>
+
+                <label>Upload Image:</label>
+                <input type="file" accept="image/*" required/>
+
+                <button type="submit">Post Ad</button>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 Hall Buy & Sell. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
